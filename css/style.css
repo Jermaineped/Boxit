@@ -30,7 +30,7 @@
 }
 
 .intro-box-2{
-    margin-top: 4.8rem;
+    margin-top: 6.8rem;
 }
 
 .intro-box {
@@ -40,8 +40,16 @@
     gap: 3.2rem;
 }
 
+.intro-img {
+    text-align: center;
+}
+
 .img-magazin, .product-img {
     width: 100%;
+}
+
+.img-logo {
+    width: 60%;
 }
 
 .product-cards {

@@ -8,6 +8,60 @@
     padding: 0 3.2rem;
     margin: 0 auto;
 }
+
+.header {
+    max-width: 1200px;
+    padding: 2.4rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 4.8rem;
+}
+
+.logo {
+width: 15%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-items {
+    display: flex;
+    gap: 2.4rem;
+    list-style-type: none;
+    font-size: 1.2rem;
+    justify-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #333;
+    transition: 0.3s;  
+}
+
+a:link {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+
+    color: #C40A56;
+    
+  }
+
+  .contact {
+    background-color: #544598;
+    border-radius: 5px;
+    border-style: none;
+    padding: 1rem 1.6rem;
+    color: white;
+  }
+  
+
 .hero-boxit {
     display: -webkit-box;
     display: -webkit-flex;
@@ -44,12 +98,60 @@
     text-align: center;
 }
 
-.img-magazin, .product-img {
+.img-magazin {
     width: 100%;
+    border-radius: 11px;
+}
+
+.product-img {
+    width: 100%;
+    display: block;
 }
 
 .img-logo {
     width: 60%;
+}
+
+.product-content {
+    padding: 2rem 1rem;
+}
+
+.product{
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+.product-title{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.3;
+    color: #333;
+}
+
+.product-link-btn{
+
+}
+
+.product-link--full:link, .product-link--full:visited {
+    background-color: #10006b;
+    color: white;
+}
+
+.product-link, .product-linkn:link, .product-link:visited {
+    display: inline-block;
+    padding: 0.3rem 0.5rem;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.product-link--full:hover, .product-link--full:active {
+    background-color: #584d97;
 }
 
 .product-cards {
@@ -57,6 +159,7 @@
     grid-template-columns: repeat(3, 1fr);
     column-gap: 6.4rem;
     row-gap: 9.6rem;
+    margin-top: 3.2rem;
 }
 
 .material-symbols-outlined {
@@ -71,7 +174,7 @@
     font-size: 64px;
 }
 
-.benefits {
+.services, .benefits {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 6.4rem;
@@ -79,9 +182,13 @@
     margin-top: 2.4rem;
 }
 
-.benefits-boxit {
+.services-boxit {
    padding: 9.6rem 0;
 }
+
+.benefits-boxit {
+    padding: 3rem 0;
+ }
 
 .cta {
 text-align: center;
@@ -89,4 +196,8 @@ text-align: center;
 
 .cta-boxit {
 
+}
+
+.icon-img {
+    width: 65%;
 }

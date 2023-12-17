@@ -2,12 +2,6 @@
   background-color: #331d74;
 }
 
-
-
-
-
-
-
 .paragraph1 {
   margin-top: 54px;
   padding-right: 195px;
@@ -70,7 +64,6 @@
   object-fit: fill;
 }
 
-
 .column {
   display: block;
   -webkit-box-orient: horizontal;
@@ -128,16 +121,39 @@
 }
 
 .body-2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 0, 75, 0.93)), to(rgba(12, 0, 75, 0.93))), url('../images/pexels-ann-h-167722.jpg');
-  background-image: linear-gradient(180deg, rgba(12, 0, 75, 0.93), rgba(12, 0, 75, 0.93)), url('../images/pexels-ann-h-167722.jpg');
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(12, 0, 75, 0.93)),
+      to(rgba(12, 0, 75, 0.93))
+    ),
+    url("../images/pexels-ann-h-167722.jpg");
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 0, 75, 0.93),
+      rgba(12, 0, 75, 0.93)
+    ),
+    url("../images/pexels-ann-h-167722.jpg");
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   padding-bottom: 96px;
 }
 
 .cta-bg {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 0, 75, 0.93)), to(rgba(12, 0, 75, 0.93)));
-  background-image: linear-gradient(180deg, rgba(12, 0, 75, 0.93), rgba(12, 0, 75, 0.93));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 0, 75, 0.93)),
+    to(rgba(12, 0, 75, 0.93))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 0, 75, 0.93),
+      rgba(12, 0, 75, 0.93)
+    ),
+    url(../images/pexels-ann-h-167722.jpg);
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   padding-bottom: 96px;
@@ -296,57 +312,57 @@
 }
 
 @font-face {
-  font-family: 'Ubuntu';
-  src: url('../fonts/Ubuntu-Bold.ttf') format('truetype');
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Ubuntu';
-  src: url('../fonts/Ubuntu-Medium.ttf') format('truetype');
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Ubuntu';
-  src: url('../fonts/Ubuntu-Italic.ttf') format('truetype');
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Ubuntu';
-  src: url('../fonts/Ubuntu-MediumItalic.ttf') format('truetype');
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Ubuntu';
-  src: url('../fonts/Ubuntu-Light.ttf') format('truetype');
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Ubuntu';
-  src: url('../fonts/Ubuntu-LightItalic.ttf') format('truetype');
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Ubuntu';
-  src: url('../fonts/Ubuntu-Regular.ttf') format('truetype');
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Ubuntu';
-  src: url('../fonts/Ubuntu-BoldItalic.ttf') format('truetype');
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-BoldItalic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
   font-display: swap;

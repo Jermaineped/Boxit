@@ -50,6 +50,10 @@
           </li>
         </ul>
       </nav>
+      <button class="mobile-nav-btn">
+        <ion-icon name="menu" class="icon-mobile-nav"></ion-icon>
+       <ion-icon name="close" class="icon-mobile-nav"></ion-icon>
+     </button>
     </header>
     <main>
       <section class="hero-section body-2">
@@ -64,7 +68,8 @@
                 bis zu den Empfänger und Empfängerinnen durch unser flexibles &
                 dynamisches Zustellnetzwerk.
               </p>
-              <a
+              <div class="btn-hero">
+                <a
                 href="mailto:info@boxitlastmile.de"
                 class="btn btn--full margin-right-sm"
                 >Kontakt aufnehmen</a
@@ -75,6 +80,7 @@
                   keyboard_arrow_down
                 </span></a
               >
+              </div>
             </div>
           </div>
         </div>
@@ -260,7 +266,7 @@
           <div class="icon">
             <div class="feature-icon">
               <img
-                src="images/data.png"
+                src="images/datamanagement.png"
                 alt="Datenbankmanagement"
                 class="img-icon"
               />
@@ -302,7 +308,7 @@
           <div class="icon">
             <div class="feature-icon">
               <img
-                src="images/service-2.png"
+                src="images/kundendienst.png"
                 alt="Kundenservice"
                 class="img-icon"
               />
@@ -342,7 +348,7 @@
           <h2>Warum Boxit?</h2>
           <div class="grid--2">
             <div class="box">
-              <span><img src="images/schach.png" alt="" class="box-logo"></span>
+              <span><img src="images/chess.png" alt="" class="box-logo"></span>
               <h3 class="box-heading">Zwei Lieferanten Strategie</h3>
               <p class="box-description">
                 Gegengewicht zur einer Single Sourcing Strategie beim
@@ -351,7 +357,7 @@
               </p>
             </div>
             <div class="box">
-              <span><img src="images/netzwerk.png" alt="" class="box-logo"></span>
+              <span><img src="images/netzwerk-welt.png" alt="" class="box-logo"></span>
               <h3 class="box-heading">Robustes Netzwerk</h3>
               <p class="box-description">
                 Größte Zustellnetz in Deutschland neben dem Monopolisten (der
@@ -360,7 +366,7 @@
               </p>
             </div>
             <div class="box">
-              <span><img src="images/sicherheit.png" alt="" class="box-logo"></span>
+              <span><img src="images/sicherheit-n.png" alt="" class="box-logo"></span>
               <h3 class="box-heading">Prozesssicherheit</h3>
               <p class="box-description">
                 Sehr gute Zustellqualität durch optimierte Kernprozess von der
@@ -368,7 +374,7 @@
               </p>
             </div>
             <div class="box">
-              <span><img src="images/individuell.png" alt="" class="box-logo"></span>
+              <span><img src="images/kundenindividuell.png" alt="" class="box-logo"></span>
               <h3 class="box-heading">Kundenindividuell</h3>
               <p class="box-description">
                 Hohe Flexibilität durch individuelle Angebotskalkulation,
@@ -479,6 +485,7 @@
               <a
                 href="https://karriere.fiege.com/offer/disponent-w-m-d-transportlogistik/1e15fe5f-329b-470c-b758-ff6e94512045"
                 class="career-box"
+                id="link"
                 target="_blank"
               >
                 <div class="left">
@@ -545,31 +552,13 @@
           <ul class="social-links">
             <li>
               <a href="https://de.linkedin.com/company/boxitlastmile" class="footer-nav-link" target="_blank">
-                <img src="images/linkedin.png" alt="" class="social-icon" />
+                <ion-icon name="logo-linkedin" class="social-icon"></ion-icon>
               </a>
             </li>
           </ul>
           <p class="copyright">
             Copyright <span class="year">2023</span> by Boxit GmbH.
           </p>
-        </div>
-        <div class="contact-col">
-          <p class="footer-heading">Kontakt</p>
-          <address class="contacts">
-            <p class="address">
-              Boxit GmbH <br />
-              Düsseldorfer Str. 1-7 <br />
-              60329 Frankfurt am Main
-            </p>
-            <p>
-              <a href="tel:415-201-6370" class="footer-nav-link"
-                >+49 (0) 2571 58 3098 206</a
-              ><br />
-              <a href="mailto: info@boxitlastmile.de" class="footer-nav-link"
-                >info@boxitlastmile.de</a
-              >
-            </p>
-          </address>
         </div>
         <div class="nav-col">
           <p class="footer-heading">Über uns</p>
@@ -582,6 +571,9 @@
             </li>
             <li>
               <a href="#" class="footer-nav-link">Vorteile von Boxit</a>
+            </li>
+            <li>
+              <a href="#" class="footer-nav-link">Stellenangebote</a>
             </li>
           </ul>
         </div>
@@ -596,41 +588,10 @@
             </li>
           </ul>
         </div>
-        <div class="nav-col">
-          <p class="footer-heading">Karriere</p>
-          <ul class="footer-nav">
-            <li>
-              <a href="#" class="footer-nav-link">Stellenangebote</a>
-            </li>
-          </ul>
-        </div>
       </div>
     </footer>
+    <script src="js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
-
-
-- Mitlaufendes Header Seitlich/Oben  
-- Optimieren Fürs Handy 
-- Icons für Warum Boxit 01, 02, 03, 04
-- Kundenservice Icons Telefonat / Datenbank
-- Iconfindung mit Melitta
-- Slider bauen für Referenzen / Automatischen Slider bauen 
-- Bild ändern bei Presseprodukte
-- Corporate Publishing / Dialogpost  
-- Inhalte und desgin schärfen
-- Bild ändern im Hero Section
-- Kunden das logo färben 
-- Schrift Roboto  
-- Datenschutz und Cookies Einrichten
-- CMS System einbauen
-- recaptcha
-- Sicherheitsvorkehrungen mit Patrick abklären
-
-
-- Mit Melitta Bilder/Icons suchen 
-- Mit Patrick sicherheit abklären 
-- Cookie Consent (Google Font)
-- E-Mail Recaptcha auf was achten die bei Cookie? 
-- Optimieren fürs Handy 
-- 
